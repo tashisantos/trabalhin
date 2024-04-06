@@ -1,0 +1,12 @@
+n = int(input("Quantas notas tem?"))
+numerador = 0
+denominador = 0
+
+for i in range(n):
+    nota = float(input("Qual é a próxima nota:"))
+    peso = float(input("Qual é o próximo peso:"))
+
+    numerador = numerador + nota*peso
+    denominador = denominador + peso
+
+print ("A média é:", numerador/denominador)
