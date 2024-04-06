@@ -1,0 +1,6 @@
+valor_A = int(input("Qual o valor A"))
+valor_B = int(input("Qual o valor B"))
+valor_C= int(input("Qual o valor C"))
+valor_D = int(input("Qual o valor D"))
+diferenca = (valor_A * valor_B - valor_C * valor_D)
+print("Diferenca:", diferenca)
